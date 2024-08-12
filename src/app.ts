@@ -25,7 +25,7 @@ const app = express();
 app.use(express.json());
 
 
-var whitelist = ['http://localhost:5173']
+var whitelist = ['http://localhost:5173', 'https://task-management-sd.netlify.app']
 
 type callbackType = (err: Error | null, allow?: boolean) => void;
 

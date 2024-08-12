@@ -17,7 +17,7 @@ async function main() {
 }
 const app = express();
 app.use(express.json());
-var whitelist = ['http://localhost:5173'];
+var whitelist = ['http://localhost:5173', 'https://task-management-sd.netlify.app'];
 var corsOptions = {
     origin: function (origin, callback) {
         if (whitelist.indexOf(origin) !== -1) {

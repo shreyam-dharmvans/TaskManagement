@@ -4,7 +4,7 @@ const taskSchema = new Schema({
         type: String,
         required: true
     },
-    description: { type: String, required: true },
+    description: { type: String },
     deadline: {
         type: String,
         required: true
